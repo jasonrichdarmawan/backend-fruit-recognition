@@ -1,4 +1,8 @@
-tensorflow-cpu==2.6.4
+# tensorflow-cpu==2.6.4 does not exist in koyeb.
+# the model was built with tensorflow==2.6.4
+# Note: the model was tested against tensorflow-cpu==2.10.0
+# verdict: no problem
+tensorflow-cpu==2.10.0
 numpy
 Flask==2.2.2
 gunicorn
